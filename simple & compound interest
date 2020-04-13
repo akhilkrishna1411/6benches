@@ -1,0 +1,11 @@
+# simple interest#
+
+def simple_interest(p,r,t):
+    print("simple interest is:",(p*r*t)/100)
+simple_interest(10000,3,7)
+
+#compound interest
+
+def compound_interest(principle, rate, time):  
+    print("Compound interest is",principle * (pow((1 + rate / 100), time)) )
+compound_interest(123450, 10, 5)
