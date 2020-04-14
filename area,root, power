@@ -1,0 +1,25 @@
+# program to find area of eq triangle
+
+import math
+def triangle(a):
+    b=(math.sqrt(3))/4
+    print("area of eq triangle is:",b*a*a)
+triangle(30)
+
+
+# program to find area of triangle
+def tri(b,h):
+    print("the area is:",(1/2)*b*h)
+tri(30,20)
+
+# square root of a number
+def root(a):
+    print("square root is:",math.sqrt(a))
+root(3)
+
+# power function
+
+def powfun(x,y):
+    print("power of 2 numbers is:",x**y)
+powfun(2,3)    
+    
