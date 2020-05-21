@@ -1,7 +1,10 @@
-#average & percentage of marks
-
 def average(list):
+    print("total is:",sum(list))
     print("the average is:",sum(list)/len(list))
-    print("percentage is:",sum(list)/400 *100)
-list=[45,60,54,80]    
+    print("percentage is:",sum(list)/500 *100)
+list=[int(input("enter the s1 marks:")),
+      int(input("enter the s2 marks:")),
+      int(input("enter the s3 marks:")),
+      int(input("enter the s4 marks:")),
+      int(input("enter the s5 marks:"))]    
 average(list)
