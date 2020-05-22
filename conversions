@@ -26,3 +26,6 @@ def degree(c):
     print("celsius in farhenheit is:",(c*1.8)+32 )
 degree(32)
 
+# tuple to dictionary
+tuple=((1,2),(3,4),(5,6))
+dict(tuple)
