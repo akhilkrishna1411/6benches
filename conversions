@@ -1,0 +1,28 @@
+# days into years weeks and days 
+days_in_week=7
+def find( number_of_days ):  
+    year = int(number_of_days / 365) 
+    week = int((number_of_days % 365) / 
+                days_in_week) 
+    days = (number_of_days % 365) % days_in_week
+      
+    print("years = ",year, 
+          "\nweeks = ",week, 
+          "\ndays = ",days) 
+number_of_days = 378
+find(number_of_days)
+
+#centimter to meter and kilometer
+
+def cm(c):
+    meters=0.01
+    km=0.00001
+    print("centi to meter is:",c*meters )
+    print("centi to km is:",c*km )
+cm(20)
+
+#celsius to farhenheit
+def degree(c):
+    print("celsius in farhenheit is:",(c*1.8)+32 )
+degree(32)
+
