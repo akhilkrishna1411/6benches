@@ -18,3 +18,7 @@ tuple(c)
 
 #using list comprehension
 list1=[ x for x in range(2,21) if x%2==0]
+
+#to remove lat element
+a=[12,13,14,15]
+a.pop(
